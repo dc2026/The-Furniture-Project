@@ -1,5 +1,5 @@
 # The-Furniture-Project
-#Overview
+# Overview
 This project is a backend system for managing and analyzing furniture data. It provides endpoints to access furniture information, perform queries by location and size, and serve data for a frontend dashboard.
 Features
 Retrieve furniture data by location and size.
