@@ -1,0 +1,8 @@
+date,truck_id,deliveries,pickups,total_stops
+2024-01-15,Daily_Truck_1,3,3,6
+2024-01-15,Daily_Truck_2,3,2,5
+2024-01-16,Daily_Truck_1,3,0,3
+2024-01-16,Daily_Truck_2,3,0,3
+2024-01-17,Daily_Truck_1,3,0,3
+2024-01-17,Daily_Truck_2,3,0,3
+2024-01-18,Daily_Truck_1,2,0,2

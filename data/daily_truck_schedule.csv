@@ -1,0 +1,26 @@
+date,truck_id,stop_sequence,stop_type,address,total_deliveries,total_pickups
+2024-01-15,Daily_Truck_1,1,delivery,"Omaha NE, 68111",3,3
+2024-01-15,Daily_Truck_1,2,delivery,"Ralston, NE, 68127",3,3
+2024-01-15,Daily_Truck_1,3,delivery,"Omaha,NE, 68132",3,3
+2024-01-15,Daily_Truck_1,4,pickup,"Omaha NE, 68108",3,3
+2024-01-15,Daily_Truck_1,5,pickup,"Omaha NE, 68108",3,3
+2024-01-15,Daily_Truck_1,6,pickup,"Omaha, NE, 68104",3,3
+2024-01-15,Daily_Truck_2,1,delivery,"Omaha, NE, 68114",3,2
+2024-01-15,Daily_Truck_2,2,delivery,"Omaha, NE, 68137",3,2
+2024-01-15,Daily_Truck_2,3,delivery,"omaha ne, 68131",3,2
+2024-01-15,Daily_Truck_2,4,pickup,"Lincoln, 68130",3,2
+2024-01-15,Daily_Truck_2,5,pickup,"Omaha Nebraska, 68127",3,2
+2024-01-16,Daily_Truck_1,1,delivery,"Omaha NE, 68111",3,0
+2024-01-16,Daily_Truck_1,2,delivery,"Omaha, NE, 68106",3,0
+2024-01-16,Daily_Truck_1,3,delivery,"OMAHA, 68104",3,0
+2024-01-16,Daily_Truck_2,1,delivery,"Omaha, Ne, 68131",3,0
+2024-01-16,Daily_Truck_2,2,delivery,"Council Bluffs, IA, 51501",3,0
+2024-01-16,Daily_Truck_2,3,delivery,"Omaha, NE, 68134",3,0
+2024-01-17,Daily_Truck_1,1,delivery,"Omaha NE, 68124",3,0
+2024-01-17,Daily_Truck_1,2,delivery,"Omaha, NE, 68104",3,0
+2024-01-17,Daily_Truck_1,3,delivery,"Omaha NE, 68104",3,0
+2024-01-17,Daily_Truck_2,1,delivery,"Omaha NE, 68132",3,0
+2024-01-17,Daily_Truck_2,2,delivery,"Omaha, NE, 68111",3,0
+2024-01-17,Daily_Truck_2,3,delivery,"Omaha NE, 68131",3,0
+2024-01-18,Daily_Truck_1,1,delivery,"Omaha, NE, 68106",2,0
+2024-01-18,Daily_Truck_1,2,delivery,"council bluffs iowa, 51501",2,0

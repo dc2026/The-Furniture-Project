@@ -1,0 +1,72 @@
+truck_id,config,stop_sequence,stop_type,address,latitude,longitude,size,total_distance,total_time
+ROUTE_1,3S+0M+0L,0,depot_start,Depot - Start,41.2565,-95.9345,depot,27.75,139.0
+ROUTE_1,3S+0M+0L,1,pickup,"Omaha NE, 68108",41.2203,-95.8608,small,27.75,139.0
+ROUTE_1,3S+0M+0L,2,delivery,"Omaha, NE, 68106",41.2033,-95.9778,small,27.75,139.0
+ROUTE_1,3S+0M+0L,3,delivery,"Omaha NE, 68111",41.3456,-95.9017,small,27.75,139.0
+ROUTE_1,3S+0M+0L,4,depot_end,Depot - Return,41.2565,-95.9345,depot,27.75,139.0
+ROUTE_2,0S+0M+1L,0,depot_start,Depot - Start,41.2565,-95.9345,depot,9.15,53.0
+ROUTE_2,0S+0M+1L,1,pickup,"Omaha NE, 68108",41.2203,-95.8608,large,9.15,53.0
+ROUTE_2,0S+0M+1L,2,depot_end,Depot - Return,41.2565,-95.9345,depot,9.15,53.0
+ROUTE_3,0S+0M+1L,0,depot_start,Depot - Start,41.2565,-95.9345,depot,7.72,49.0
+ROUTE_3,0S+0M+1L,1,pickup,"Omaha, NE, 68104",41.3114,-95.9208,large,7.72,49.0
+ROUTE_3,0S+0M+1L,2,depot_end,Depot - Return,41.2565,-95.9345,depot,7.72,49.0
+ROUTE_4,0S+0M+1L,0,depot_start,Depot - Start,41.2565,-95.9345,depot,99.88,280.0
+ROUTE_4,0S+0M+1L,1,pickup,"Lincoln, 68130",40.8136,-96.6917,large,99.88,280.0
+ROUTE_4,0S+0M+1L,2,depot_end,Depot - Return,41.2565,-95.9345,depot,99.88,280.0
+ROUTE_5,0S+0M+1L,0,depot_start,Depot - Start,41.2565,-95.9345,depot,16.36,71.0
+ROUTE_5,0S+0M+1L,1,pickup,"Omaha Nebraska, 68127",41.1544,-96.0142,large,16.36,71.0
+ROUTE_5,0S+0M+1L,2,depot_end,Depot - Return,41.2565,-95.9345,depot,16.36,71.0
+ROUTE_6,0S+0M+1L,0,depot_start,Depot - Start,41.2565,-95.9345,depot,12.78,52.0
+ROUTE_6,0S+0M+1L,1,delivery,"Omaha NE, 68111",41.3456,-95.9017,large,12.78,52.0
+ROUTE_6,0S+0M+1L,2,depot_end,Depot - Return,41.2565,-95.9345,depot,12.78,52.0
+ROUTE_7,0S+0M+1L,0,depot_start,Depot - Start,41.2565,-95.9345,depot,16.36,61.0
+ROUTE_7,0S+0M+1L,1,delivery,"Ralston, NE, 68127",41.1544,-96.0142,large,16.36,61.0
+ROUTE_7,0S+0M+1L,2,depot_end,Depot - Return,41.2565,-95.9345,depot,16.36,61.0
+ROUTE_8,0S+0M+1L,0,depot_start,Depot - Start,41.2565,-95.9345,depot,9.15,43.0
+ROUTE_8,0S+0M+1L,1,delivery,"Omaha,NE, 68132",41.2203,-95.8608,large,9.15,43.0
+ROUTE_8,0S+0M+1L,2,depot_end,Depot - Return,41.2565,-95.9345,depot,9.15,43.0
+ROUTE_9,0S+0M+1L,0,depot_start,Depot - Start,41.2565,-95.9345,depot,9.15,43.0
+ROUTE_9,0S+0M+1L,1,delivery,"Omaha, NE, 68114",41.2203,-95.8608,large,9.15,43.0
+ROUTE_9,0S+0M+1L,2,depot_end,Depot - Return,41.2565,-95.9345,depot,9.15,43.0
+ROUTE_10,0S+0M+1L,0,depot_start,Depot - Start,41.2565,-95.9345,depot,10.78,47.0
+ROUTE_10,0S+0M+1L,1,delivery,"Omaha, NE, 68137",41.1836,-95.8975,large,10.78,47.0
+ROUTE_10,0S+0M+1L,2,depot_end,Depot - Return,41.2565,-95.9345,depot,10.78,47.0
+ROUTE_11,0S+0M+1L,0,depot_start,Depot - Start,41.2565,-95.9345,depot,12.53,51.0
+ROUTE_11,0S+0M+1L,1,delivery,"omaha ne, 68131",41.2978,-96.0419,large,12.53,51.0
+ROUTE_11,0S+0M+1L,2,depot_end,Depot - Return,41.2565,-95.9345,depot,12.53,51.0
+ROUTE_12,0S+0M+1L,0,depot_start,Depot - Start,41.2565,-95.9345,depot,7.72,39.0
+ROUTE_12,0S+0M+1L,1,delivery,"OMAHA, 68104",41.3114,-95.9208,large,7.72,39.0
+ROUTE_12,0S+0M+1L,2,depot_end,Depot - Return,41.2565,-95.9345,depot,7.72,39.0
+ROUTE_13,0S+0M+1L,0,depot_start,Depot - Start,41.2565,-95.9345,depot,12.53,51.0
+ROUTE_13,0S+0M+1L,1,delivery,"Omaha, Ne, 68131",41.2978,-96.0419,large,12.53,51.0
+ROUTE_13,0S+0M+1L,2,depot_end,Depot - Return,41.2565,-95.9345,depot,12.53,51.0
+ROUTE_14,0S+0M+1L,0,depot_start,Depot - Start,41.2565,-95.9345,depot,7.69,39.0
+ROUTE_14,0S+0M+1L,1,delivery,"Council Bluffs, IA, 51501",41.2619,-95.8608,large,7.69,39.0
+ROUTE_14,0S+0M+1L,2,depot_end,Depot - Return,41.2565,-95.9345,depot,7.69,39.0
+ROUTE_15,0S+0M+1L,0,depot_start,Depot - Start,41.2565,-95.9345,depot,18.53,66.0
+ROUTE_15,0S+0M+1L,1,delivery,"Omaha, NE, 68134",41.2072,-96.1003,large,18.53,66.0
+ROUTE_15,0S+0M+1L,2,depot_end,Depot - Return,41.2565,-95.9345,depot,18.53,66.0
+ROUTE_16,0S+0M+1L,0,depot_start,Depot - Start,41.2565,-95.9345,depot,12.03,50.0
+ROUTE_16,0S+0M+1L,1,delivery,"Omaha NE, 68124",41.25,-96.05,large,12.03,50.0
+ROUTE_16,0S+0M+1L,2,depot_end,Depot - Return,41.2565,-95.9345,depot,12.03,50.0
+ROUTE_17,0S+0M+1L,0,depot_start,Depot - Start,41.2565,-95.9345,depot,7.72,39.0
+ROUTE_17,0S+0M+1L,1,delivery,"Omaha, NE, 68104",41.3114,-95.9208,large,7.72,39.0
+ROUTE_17,0S+0M+1L,2,depot_end,Depot - Return,41.2565,-95.9345,depot,7.72,39.0
+ROUTE_18,0S+0M+1L,0,depot_start,Depot - Start,41.2565,-95.9345,depot,7.72,39.0
+ROUTE_18,0S+0M+1L,1,delivery,"Omaha NE, 68104",41.3114,-95.9208,large,7.72,39.0
+ROUTE_18,0S+0M+1L,2,depot_end,Depot - Return,41.2565,-95.9345,depot,7.72,39.0
+ROUTE_19,0S+0M+1L,0,depot_start,Depot - Start,41.2565,-95.9345,depot,9.15,43.0
+ROUTE_19,0S+0M+1L,1,delivery,"Omaha NE, 68132",41.2203,-95.8608,large,9.15,43.0
+ROUTE_19,0S+0M+1L,2,depot_end,Depot - Return,41.2565,-95.9345,depot,9.15,43.0
+ROUTE_20,0S+0M+1L,0,depot_start,Depot - Start,41.2565,-95.9345,depot,12.78,52.0
+ROUTE_20,0S+0M+1L,1,delivery,"Omaha, NE, 68111",41.3456,-95.9017,large,12.78,52.0
+ROUTE_20,0S+0M+1L,2,depot_end,Depot - Return,41.2565,-95.9345,depot,12.78,52.0
+ROUTE_21,0S+0M+1L,0,depot_start,Depot - Start,41.2565,-95.9345,depot,12.53,51.0
+ROUTE_21,0S+0M+1L,1,delivery,"Omaha NE, 68131",41.2978,-96.0419,large,12.53,51.0
+ROUTE_21,0S+0M+1L,2,depot_end,Depot - Return,41.2565,-95.9345,depot,12.53,51.0
+ROUTE_22,0S+0M+1L,0,depot_start,Depot - Start,41.2565,-95.9345,depot,8.62,42.0
+ROUTE_22,0S+0M+1L,1,delivery,"Omaha, NE, 68106",41.2033,-95.9778,large,8.62,42.0
+ROUTE_22,0S+0M+1L,2,depot_end,Depot - Return,41.2565,-95.9345,depot,8.62,42.0
+ROUTE_23,0S+0M+1L,0,depot_start,Depot - Start,41.2565,-95.9345,depot,7.69,39.0
+ROUTE_23,0S+0M+1L,1,delivery,"council bluffs iowa, 51501",41.2619,-95.8608,large,7.69,39.0
+ROUTE_23,0S+0M+1L,2,depot_end,Depot - Return,41.2565,-95.9345,depot,7.69,39.0
