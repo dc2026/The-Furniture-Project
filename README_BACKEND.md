@@ -52,13 +52,13 @@ api.book_time_slot(request_id, date, time_slot, zone, size, address)
 
 ## Features Implemented
 
-✅ Size categorization (small/medium/large)
-✅ Truck capacity constraints (3S, 2S+1M, 2M, 1L)
-✅ Zone-based grouping by zip codes
-✅ Calendar auto-population from requests
-✅ Optimal route generation with GPS coordinates
-✅ Combined delivery/pickup route assignment
-✅ API endpoints for dashboard integration
+Size categorization (small/medium/large)
+Truck capacity constraints (3S, 2S+1M, 2M, 1L)
+Zone-based grouping by zip codes
+Calendar auto-population from requests
+Optimal route generation with GPS coordinates
+Combined delivery/pickup route assignment
+API endpoints for dashboard integration
 
 ## Next Steps for Frontend Partner
 
