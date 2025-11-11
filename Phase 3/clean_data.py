@@ -69,43 +69,11 @@ item_cols = [
 df["combined_items"] = df[item_cols].astype(str).apply(lambda x: " ".join(x), axis=1)
 
 # === Step 6: Classify size (small, medium, large) ===
-# Enhanced size classification with organization-specific phrasing
-# This determines truck capacity requirements and scheduling constraints
+# Simple size classification based on common furniture types
 # Size categories correspond to truck capacity: 3 small OR 2 medium OR 1 large
-size_keywords = {
-    # Large items - require truck/multiple people (1 per truck max)
-    'sofa': 'large', 'couch': 'large', 'sectional': 'large', 'loveseat': 'large',
-    'bed': 'large', 'mattress': 'large', 'box spring': 'large', 'bed frame': 'large',
-    'full bed': 'large', 'queen bed': 'large', 'king bed': 'large', 'twin bed': 'large',
-    'crib': 'large', 'toddler bed': 'large', 'bunk bed': 'large',
-    'dining set': 'large', 'living room set': 'large', 'bedroom set': 'large',
-    'entertainment center': 'large', 'armoire': 'large', 'wardrobe': 'large',
-    'recliner': 'large', 'futon': 'large', 'sleeper sofa': 'large',
-    
-    # Medium items - manageable with 2 people (2 per truck max)
-    'dresser': 'medium', 'chest of drawers': 'medium', 'bureau': 'medium',
-    'table': 'medium', 'dining table': 'medium', 'kitchen table': 'medium',
-    'desk': 'medium', 'computer desk': 'medium', 'office desk': 'medium',
-    'bookcase': 'medium', 'bookshelf': 'medium', 'shelf': 'medium', 'shelving': 'medium',
-    'tv stand': 'medium', 'coffee table': 'medium', 'end table': 'medium',
-    'nightstand': 'medium', 'bedside table': 'medium', 'side table': 'medium',
-    'cabinet': 'medium', 'hutch': 'medium', 'buffet': 'medium',
-    'ottoman': 'medium', 'bench': 'medium', 'storage bench': 'medium',
-    
-    # Small items - single person can handle (3 per truck max)
-    'chair': 'small', 'dining chair': 'small', 'office chair': 'small',
-    'lamp': 'small', 'table lamp': 'small', 'floor lamp': 'small',
-    'box': 'small', 'storage box': 'small', 'moving box': 'small',
-    'comforter': 'small', 'bedding': 'small', 'pillows': 'small', 'blanket': 'small',
-    'stroller': 'small', 'high chair': 'small', 'booster seat': 'small',
-    'mirror': 'small', 'picture': 'small', 'artwork': 'small',
-    'basket': 'small', 'hamper': 'small', 'trash can': 'small',
-    'plant': 'small', 'decoration': 'small', 'knick knack': 'small',
-    'kitchen items': 'small', 'dishes': 'small', 'cookware': 'small'
-}
 
 def classify_size(text):
-    """Classify furniture request size based on item keywords and combinations
+    """Simple furniture size classification
     
     Args:
         text (str): Combined text of all furniture items in request
@@ -113,31 +81,33 @@ def classify_size(text):
     Returns:
         str: 'small', 'medium', or 'large' based on truck capacity requirements
     """
-    t = str(text).lower()
+    # Convert to lowercase for easier matching
+    text = str(text).lower()
     
-    # Check for set combinations first (these are typically large)
-    # Furniture sets usually require large truck capacity
-    set_indicators = ['set', 'suite', 'collection', 'group']
-    if any(indicator in t for indicator in set_indicators):
-        # If it mentions multiple items or "set", likely large
-        if any(large_item in t for large_item in ['bed', 'sofa', 'dining', 'living room', 'bedroom']):
+    # LARGE items - Need truck/multiple people, fill truck capacity (1 per truck max)
+    large_items = [
+        'bed', 'mattress', 'sofa', 'couch', 'sectional', 'loveseat',
+        'crib', 'dining set', 'bedroom set', 'living room set'
+    ]
+    
+    # MEDIUM items - Need 2 people, moderate truck space (2 per truck max)
+    medium_items = [
+        'dresser', 'table', 'desk', 'bookshelf', 'tv stand', 
+        'nightstand', 'cabinet', 'chest'
+    ]
+    
+    # Check for large items first (most restrictive)
+    for item in large_items:
+        if item in text:
             return 'large'
     
-    # Count mentions of large items to detect multiple large pieces
-    large_count = sum(1 for kw, sz in size_keywords.items() if sz == 'large' and kw in t)
-    medium_count = sum(1 for kw, sz in size_keywords.items() if sz == 'medium' and kw in t)
+    # Check for medium items
+    for item in medium_items:
+        if item in text:
+            return 'medium'
     
-    # If multiple large items mentioned, definitely requires large truck
-    if large_count >= 2:
-        return 'large'
-    
-    # Standard keyword matching - first match wins
-    for kw, sz in size_keywords.items():
-        if kw in t:
-            return sz
-    
-    # Default to small for unrecognized items (safest assumption)
-    return "small"
+    # Everything else is small (lamps, dishes, pillows, etc.)
+    return 'small'
 
 # Apply size classification to all requests
 df["size_category"] = df["combined_items"].apply(classify_size)

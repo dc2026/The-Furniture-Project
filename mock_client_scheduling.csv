@@ -1,0 +1,31 @@
+request_id,client_name,address,phone,preferred_date,preferred_time_slot,preference_rank,furniture_items,status
+REQ_001,John Smith,"123 Main St, Omaha NE 68104",(402) 555-0101,2025-11-11,11:00 AM - 1:00 PM,1,"Sofa, coffee table, lamp",pending_scheduling
+REQ_001,John Smith,"123 Main St, Omaha NE 68104",(402) 555-0101,2025-11-15,9:00 AM - 11:00 AM,2,"Queen bed set, dresser",pending_scheduling
+REQ_001,John Smith,"123 Main St, Omaha NE 68104",(402) 555-0101,2025-11-16,3:00 PM - 5:00 PM,3,"Queen bed set, dresser",pending_scheduling
+REQ_002,Mary Johnson,"456 Oak Ave, Omaha NE 68111",(402) 555-0102,2025-11-11,11:00 AM - 1:00 PM,1,"Kitchen table, 4 chairs",pending_scheduling
+REQ_002,Mary Johnson,"456 Oak Ave, Omaha NE 68111",(402) 555-0102,2025-11-12,3:00 PM - 5:00 PM,2,"Kitchen table, 4 chairs",pending_scheduling
+REQ_002,Mary Johnson,"456 Oak Ave, Omaha NE 68111",(402) 555-0102,2025-11-14,9:00 AM - 11:00 AM,3,"Sofa, coffee table, lamp",pending_scheduling
+REQ_003,Bob Wilson,"789 Pine Rd, Omaha NE 68134",(402) 555-0103,2025-11-13,3:00 PM - 5:00 PM,1,"Sofa, coffee table, lamp",pending_scheduling
+REQ_003,Bob Wilson,"789 Pine Rd, Omaha NE 68134",(402) 555-0103,2025-11-10,11:00 AM - 1:00 PM,2,"Bookshelf, desk, chair",pending_scheduling
+REQ_003,Bob Wilson,"789 Pine Rd, Omaha NE 68134",(402) 555-0103,2025-11-12,9:00 AM - 11:00 AM,3,"Kitchen table, 4 chairs",pending_scheduling
+REQ_004,Lisa Brown,"321 Elm St, Omaha NE 68106",(402) 555-0104,2025-11-15,1:00 PM - 3:00 PM,1,"Bookshelf, desk, chair",pending_scheduling
+REQ_004,Lisa Brown,"321 Elm St, Omaha NE 68106",(402) 555-0104,2025-11-12,11:00 AM - 1:00 PM,2,"Kitchen table, 4 chairs",pending_scheduling
+REQ_004,Lisa Brown,"321 Elm St, Omaha NE 68106",(402) 555-0104,2025-11-11,9:00 AM - 11:00 AM,3,"Queen bed set, dresser",pending_scheduling
+REQ_005,Tom Davis,"654 Maple Dr, Omaha NE 68127",(402) 555-0105,2025-11-12,3:00 PM - 5:00 PM,1,"Sofa, coffee table, lamp",pending_scheduling
+REQ_005,Tom Davis,"654 Maple Dr, Omaha NE 68127",(402) 555-0105,2025-11-11,1:00 PM - 3:00 PM,2,"Sofa, coffee table, lamp",pending_scheduling
+REQ_005,Tom Davis,"654 Maple Dr, Omaha NE 68127",(402) 555-0105,2025-11-10,9:00 AM - 11:00 AM,3,"Queen bed set, dresser",pending_scheduling
+REQ_006,Sarah Miller,"987 Cedar Ln, Omaha NE 68137",(402) 555-0106,2025-11-16,1:00 PM - 3:00 PM,1,"Queen bed set, dresser",pending_scheduling
+REQ_006,Sarah Miller,"987 Cedar Ln, Omaha NE 68137",(402) 555-0106,2025-11-14,11:00 AM - 1:00 PM,2,"Bookshelf, desk, chair",pending_scheduling
+REQ_006,Sarah Miller,"987 Cedar Ln, Omaha NE 68137",(402) 555-0106,2025-11-11,3:00 PM - 5:00 PM,3,"Twin bed, nightstand",pending_scheduling
+REQ_007,Mike Garcia,"147 Birch St, Omaha NE 68108",(402) 555-0107,2025-11-11,1:00 PM - 3:00 PM,1,"Sofa, coffee table, lamp",pending_scheduling
+REQ_007,Mike Garcia,"147 Birch St, Omaha NE 68108",(402) 555-0107,2025-11-13,9:00 AM - 11:00 AM,2,"Twin bed, nightstand",pending_scheduling
+REQ_007,Mike Garcia,"147 Birch St, Omaha NE 68108",(402) 555-0107,2025-11-14,3:00 PM - 5:00 PM,3,"Kitchen table, 4 chairs",pending_scheduling
+REQ_008,Emma Wilson,"258 Ash Ave, Omaha NE 68114",(402) 555-0108,2025-11-14,1:00 PM - 3:00 PM,1,"Bookshelf, desk, chair",pending_scheduling
+REQ_008,Emma Wilson,"258 Ash Ave, Omaha NE 68114",(402) 555-0108,2025-11-15,11:00 AM - 1:00 PM,2,"Sofa, coffee table, lamp",pending_scheduling
+REQ_008,Emma Wilson,"258 Ash Ave, Omaha NE 68114",(402) 555-0108,2025-11-11,3:00 PM - 5:00 PM,3,"Queen bed set, dresser",pending_scheduling
+REQ_009,David Lee,"369 Walnut Rd, Omaha NE 68124",(402) 555-0109,2025-11-11,3:00 PM - 5:00 PM,1,"Kitchen table, 4 chairs",pending_scheduling
+REQ_009,David Lee,"369 Walnut Rd, Omaha NE 68124",(402) 555-0109,2025-11-10,9:00 AM - 11:00 AM,2,"Kitchen table, 4 chairs",pending_scheduling
+REQ_009,David Lee,"369 Walnut Rd, Omaha NE 68124",(402) 555-0109,2025-11-15,1:00 PM - 3:00 PM,3,"Sofa, coffee table, lamp",pending_scheduling
+REQ_010,Anna Taylor,"741 Cherry St, Omaha NE 68132",(402) 555-0110,2025-11-16,1:00 PM - 3:00 PM,1,"Bookshelf, desk, chair",pending_scheduling
+REQ_010,Anna Taylor,"741 Cherry St, Omaha NE 68132",(402) 555-0110,2025-11-13,9:00 AM - 11:00 AM,2,"Queen bed set, dresser",pending_scheduling
+REQ_010,Anna Taylor,"741 Cherry St, Omaha NE 68132",(402) 555-0110,2025-11-12,3:00 PM - 5:00 PM,3,"Queen bed set, dresser",pending_scheduling

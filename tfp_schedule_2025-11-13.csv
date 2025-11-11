@@ -1,0 +1,7 @@
+date,stop_type,client_name,address,phone,time_slot,items
+2025-11-13,delivery,Bob Wilson,"789 Pine Rd, Omaha NE 68134",(402) 555-0103,3:00 PM - 5:00 PM,"Sofa, coffee table, lamp"
+2025-11-13,delivery,Mike Garcia,"147 Birch St, Omaha NE 68108",(402) 555-0107,9:00 AM - 11:00 AM,"Twin bed, nightstand"
+2025-11-13,delivery,Anna Taylor,"741 Cherry St, Omaha NE 68132",(402) 555-0110,9:00 AM - 11:00 AM,"Queen bed set, dresser"
+2025-11-13,pickup,James Martinez,"951 Sycamore St, Omaha NE 68106",(402) 555-0204,Flexible,"Bedroom set (queen bed, dresser, nightstands)"
+2025-11-13,pickup,Jennifer Adams,"159 Spruce St, Omaha NE 68104",(402) 555-0201,Flexible,Dining room set (table + 6 chairs)
+2025-11-13,pickup,Robert Clark,"753 Poplar Ave, Omaha NE 68111",(402) 555-0202,Flexible,"Living room set (sofa, loveseat, coffee table)"

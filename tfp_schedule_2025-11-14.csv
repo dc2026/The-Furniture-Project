@@ -1,0 +1,8 @@
+date,stop_type,client_name,address,phone,time_slot,items
+2025-11-14,delivery,Mary Johnson,"456 Oak Ave, Omaha NE 68111",(402) 555-0102,9:00 AM - 11:00 AM,"Sofa, coffee table, lamp"
+2025-11-14,delivery,Emma Wilson,"258 Ash Ave, Omaha NE 68114",(402) 555-0108,1:00 PM - 3:00 PM,"Bookshelf, desk, chair"
+2025-11-14,delivery,Mike Garcia,"147 Birch St, Omaha NE 68108",(402) 555-0107,3:00 PM - 5:00 PM,"Kitchen table, 4 chairs"
+2025-11-14,delivery,Sarah Miller,"987 Cedar Ln, Omaha NE 68137",(402) 555-0106,11:00 AM - 1:00 PM,"Bookshelf, desk, chair"
+2025-11-14,pickup,James Martinez,"951 Sycamore St, Omaha NE 68106",(402) 555-0204,Flexible,"Bedroom set (queen bed, dresser, nightstands)"
+2025-11-14,pickup,Linda Rodriguez,"357 Magnolia Dr, Omaha NE 68127",(402) 555-0205,Flexible,Kitchen appliances and small furniture
+2025-11-14,pickup,Jennifer Adams,"159 Spruce St, Omaha NE 68104",(402) 555-0201,Flexible,Dining room set (table + 6 chairs)

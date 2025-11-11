@@ -1,0 +1,6 @@
+pickup_id,donor_name,address,phone,available_dates,furniture_items,pickup_notes,status
+PICKUP_001,Jennifer Adams,"159 Spruce St, Omaha NE 68104",(402) 555-0201,Flexible - any weekday,Dining room set (table + 6 chairs),Multiple small items,available_for_pickup
+PICKUP_002,Robert Clark,"753 Poplar Ave, Omaha NE 68111",(402) 555-0202,Flexible - any weekday,"Living room set (sofa, loveseat, coffee table)",Large items - may need truck,available_for_pickup
+PICKUP_003,Michelle White,"864 Hickory Rd, Omaha NE 68134",(402) 555-0203,Flexible - any weekday,"Living room set (sofa, loveseat, coffee table)",Ground floor - easy pickup,available_for_pickup
+PICKUP_004,James Martinez,"951 Sycamore St, Omaha NE 68106",(402) 555-0204,Flexible - any weekday,"Bedroom set (queen bed, dresser, nightstands)",Multiple small items,available_for_pickup
+PICKUP_005,Linda Rodriguez,"357 Magnolia Dr, Omaha NE 68127",(402) 555-0205,Flexible - any weekday,Kitchen appliances and small furniture,Large items - may need truck,available_for_pickup
