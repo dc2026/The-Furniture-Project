@@ -1,8 +1,8 @@
-date,stop_type,client_name,address,phone,time_slot,items
-2025-11-15,delivery,John Smith,"123 Main St, Omaha NE 68104",(402) 555-0101,9:00 AM - 11:00 AM,"Queen bed set, dresser"
-2025-11-15,delivery,Emma Wilson,"258 Ash Ave, Omaha NE 68114",(402) 555-0108,11:00 AM - 1:00 PM,"Sofa, coffee table, lamp"
-2025-11-15,delivery,Lisa Brown,"321 Elm St, Omaha NE 68106",(402) 555-0104,1:00 PM - 3:00 PM,"Bookshelf, desk, chair"
-2025-11-15,delivery,David Lee,"369 Walnut Rd, Omaha NE 68124",(402) 555-0109,1:00 PM - 3:00 PM,"Sofa, coffee table, lamp"
-2025-11-15,pickup,Michelle White,"864 Hickory Rd, Omaha NE 68134",(402) 555-0203,Flexible,"Living room set (sofa, loveseat, coffee table)"
-2025-11-15,pickup,Linda Rodriguez,"357 Magnolia Dr, Omaha NE 68127",(402) 555-0205,Flexible,Kitchen appliances and small furniture
-2025-11-15,pickup,James Martinez,"951 Sycamore St, Omaha NE 68106",(402) 555-0204,Flexible,"Bedroom set (queen bed, dresser, nightstands)"
+date,stop_type,client_name,address,phone,time_slot
+2025-11-15,delivery,John Smith,"123 Main St, Omaha NE 68104",(402) 555-0101,9:00 AM - 11:00 AM
+2025-11-15,delivery,Emma Wilson,"258 Ash Ave, Omaha NE 68114",(402) 555-0108,11:00 AM - 1:00 PM
+2025-11-15,delivery,Lisa Brown,"321 Elm St, Omaha NE 68106",(402) 555-0104,1:00 PM - 3:00 PM
+2025-11-15,delivery,David Lee,"369 Walnut Rd, Omaha NE 68124",(402) 555-0109,1:00 PM - 3:00 PM
+2025-11-15,pickup,Michelle White,"864 Hickory Rd, Omaha NE 68134",(402) 555-0203,Flexible
+2025-11-15,pickup,Linda Rodriguez,"357 Magnolia Dr, Omaha NE 68127",(402) 555-0205,Flexible
+2025-11-15,pickup,James Martinez,"951 Sycamore St, Omaha NE 68106",(402) 555-0204,Flexible
